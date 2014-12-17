@@ -16,6 +16,6 @@ public:
         vector<int> buffer;
         //对输入序列进行排序
         sort(num.begin(),num.end());
-        
+        //如何有效地处理四个元素
     }
 };

@@ -1,72 +1,55 @@
-//
-//  3sum.cpp
-//  
-//
-//  Created by Bowie Hsu  on 14/12/16.
-//
-//
-
-#include <stdio.h>
-#include <iostream>
-#include <vector>
-using namespace std;
-
-class Solution{
+class Solution
+{
 public:
-    vector<vector<int>> threeSum(vector<int> &num)//容器无法赋值，采用引用初始化
+    vector<vector<int> > fourSum(vector<int> &num, int target)
     {
-        //利用STL对容器排序
-        sort(num.begin(),num.end());
         vector<vector<int>> output;
-        vector <int> buffer(3);
-        int len=num.size();
-        if (len<3)
+        vector<int> buffer=*new vector<int> (4);
+        auto len=num.size();
+        if (len<4)
+        return output;
+        //对输入序列进行排序
+        sort(num.begin(),num.end());
+        //建立一张图，用来存储计算结果
+        unordered_multimap<int,pair<int,int>> mapresult;
+        for (int i=0; i<len; ++i)
         {
-            return output;
-        }
-        int j=0,k=0;
-        bool iden=false;
-        
-        for(int i=0;i<len-2;++i)
-        {
-            if(i > 0 && num[i] == num[i-1]) continue;//针对时间复杂度进行优化，减少相同的元素的计算时间
-            for(k=i+1;k<len-1;++k)
+            for (int j=i+1; j<len; ++j)
             {
-                int low=k+1;
-                int high=len-1;
-            while(low<=high)
-            {
-                j=(low+high)/2;
-            if(num[j]+num[k]+num[i]==0)
-            {
-                buffer[0]=num[i];
-                buffer[1]=num[k];
-                buffer[2]=num[j];
-                output.push_back(buffer);
-                break;
-            }
-            else if(num[j]+num[k]+num[i]>0)
-                high=j-1;
-            else if(num[j]+num[k]+num[i]<0)
-                low=j+1;
-            }
+                int sum=num[i]+num[j];
+                mapresult.insert(make_pair(sum,make_pair(i, j)));
+                
             }
         }
-        //解决{0，0，0，0}这样的输入，将输出容器排序然后删除重复元素
+        for (auto i=mapresult.begin(); i!=mapresult.end(); ++i) {
+            //求两个pair的和与traget的匹配关系
+            int x=target-i->first;
+            //利用equal_range来寻找x的值，返回两个迭代器,在两个迭代器的范围内查找x
+            auto range=mapresult.equal_range(x);
+            for (auto j=range.first; j!=range.second;++j )
+            {
+                auto a=i->second.first;
+                auto b=i->second.second;
+                auto c=j->second.first;
+                auto d=j->second.second;
+               
+                if (a!=c&&a!=d&&b!=c&&b!=d)
+                {
+                    buffer[0]=num[a];
+                    buffer[1]=num[b];
+                    buffer[2]=num[c];
+                    buffer[3]=num[d];
+                    sort(buffer.begin(), buffer.end());
+                    output.push_back(buffer);
+                }
+               
+            }
+            
+           
+        }//对输出进行排序并检查是否有重复
         sort(output.begin(),output.end());
-        output.erase(unique(output.begin(),output.end()),output.end());
+        output.erase(unique(output.begin(), output.end()),output.end());
         return output;
     }
 };
 
-int main()
-{
-    vector<int> input={1,0,-1};
-    vector<vector<int>> output;//默认构造函数为空
-    Solution x;
-    output=x.threeSum(input);
-    int i=5;
-    int ans=i/2;
-    cout<<"ans should be"<<endl;
-
-}

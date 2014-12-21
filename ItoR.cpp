@@ -35,7 +35,7 @@ public:
            res.append("I");
        }
        while(num>0)
-       {
+       {//注意“/”符号与“%”符号的作用。不要搞混
        if(num/buffer[i].para==0)
        { ++i;continue;}
            

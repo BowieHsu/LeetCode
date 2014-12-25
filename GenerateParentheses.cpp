@@ -34,6 +34,17 @@ public:
         if (left>0)
             feedback(v,ass+"(",left-1,right+1);
         if (right>0)
-            feedback(v,ass+")",left,--right);
+            feedback(v,ass+")",left,right-1);
     }
 };
+
+int main()
+{
+    Solution x;
+    vector<string> ans;
+    ans=x.generateParenthesis(1);
+    for (auto i=ans.begin();i!=ans.end();++i)
+    {
+        std::cout<<ans[i]<<std::end;
+    }
+}

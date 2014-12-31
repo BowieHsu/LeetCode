@@ -41,6 +41,7 @@ public:
             }
         }
         //解决{0，0，0，0}这样的输入，将输出容器排序然后删除重复元素
+		//无法更新
         sort(output.begin(),output.end());
         output.erase(unique(output.begin(),output.end()),output.end());
         return output;

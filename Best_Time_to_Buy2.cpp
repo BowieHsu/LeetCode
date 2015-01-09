@@ -1,70 +1,42 @@
 //
-//  Best_Time_to_Buy2.cpp
+//  Best_Time_to_Buy3.cpp
 //  Longest Substring
 //
-//  Created by Bowie Hsu  on 15/1/2.
+//  Created by Bowie Hsu  on 15/1/8.
 //  Copyright (c) 2015年 Bowie Hsu . All rights reserved.
 //
-
-#include <stdio.h>
 #include <iostream>
 #include <vector>
-#include <map>
-#include <string>
-#include <unordered_map>
-
 using namespace std;
 class Solution
 {
 public:
-    //用关联容器存储手机按键和其代表的字母
-    map<char, string> map_result;
-    //构造函数对map_result进行初始化
-    Solution(){
-    map_result.insert({'2',"abc"});
-    map_result.insert({'3',"def"});
-    map_result.insert({'4',"ghi"});
-    map_result.insert({'5',"jkl"});
-    map_result.insert({'6',"mno"});
-    map_result.insert({'7',"pqr"});
-    map_result.insert({'8',"tuv"});
-    map_result.insert({'9',"wxyz"});
-    }
-    //递归输出所有的数字
-    vector<string> letterCombinations(string digits)
+    //在合适的时机买入和卖出股票，可以多次买卖，但必须先买才能卖
+    //简直醉到不行，这个题目的bug在于可以同一天买卖，于是总的利润就是所有差距之和
+    int maxProfit(vector<int> &prices)
     {
-        //空字符返回空
-        vector<string> output;
-        if (digits=="")
-        {
-            output.push_back("");
-            return output;
+        if (prices.empty()) {
+            return 0;
         }
-        //递归
-        vector<string>buffer=letterCombinations(digits.substr(1));
-        //在map_result中查找有关的结果
-        string map_buffer=map_result[digits[0]];
-        //利用递归，每次将在map中找到的字母排在目前有的string后，生成不同的排列组合
-        for (auto i=0;i!=map_buffer.size(); ++i)
+        int maxvalue=0;
+        for (auto i=prices.begin(); i!=prices.end()-1; ++i)
         {
-            for (auto j=0; j!=buffer.size(); ++j)
+            if (*i<*(i+1))
             {
-                output.push_back(map_buffer[i]+buffer[j]);
+                maxvalue+=*(i+1)-*i;
             }
-            
         }
-        return output;
+        return maxvalue;
+        
     }
-
 };
 
 int main()
 {
     Solution x;
-    vector<string>answer=x.letterCombinations("23");
-    for (auto i=answer.begin();i!=answer.end();++i)
-    {
-          cout<<*i<<endl;
-    }
-    
+    int answer;
+    vector<int> input={1,2,3,4,5};
+    answer=x.maxProfit(input);
+    cout<<answer<<endl;
+
 }

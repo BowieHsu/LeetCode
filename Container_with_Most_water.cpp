@@ -25,7 +25,6 @@ public:
         int output=0;
         while(i<j)
         {
-            
             output=max(output,(j-i)*min(height[i-1],height[j-1]));
             if (height[i-1]<=height[j-1])
                 i++;
@@ -41,7 +40,8 @@ public:
 int main()
 {
     Solution x;
-    vector<int>input={1,2,3,4,5,10,11};
-    int answer=x.maxArea(input);
+    vector<int>input={1,2,3,4,5,11};
+    int answer=0;
+    answer=x.maxArea(input);
     cout<<answer<<endl;
 }

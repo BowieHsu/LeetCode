@@ -2,17 +2,17 @@
 __author__ = 'bowiehsu'
 class Solution:
     def permute(self,num):
-      #依次交换位置
-        ras,num2 = [num],[]
-        l = len(num)-1
-        for x in num:
-            num2.append(x)
-        for y in range(l):
-            num2[y],num2[y+1] = num2[y+1],num2[y]
-        ras.append(num2)
+        if len(num) <= 1:
+            return [num]
+        ras = []
+        for idx,ele in enumerate(num):
+            for elemt in self.permute(num[:idx]+num[idx+1:]):
+                ras.append([ele]+elemt)
         return ras
 
 instance = Solution()
 r = [1,2,3]
 out = instance.permute(r)
 print out
+u = [1,2,3]
+print u[0:1]+u[2:]

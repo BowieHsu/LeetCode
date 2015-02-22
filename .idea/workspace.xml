@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a80b37f5-d87b-4b5c-ae35-e04250a04f4b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Factorial_Trailing_Zeroes.py" afterPath="$PROJECT_DIR$/Factorial_Trailing_Zeroes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Intersection_of_Two_Linked_Lists.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="-.iws" />
@@ -19,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="PyCharm40/coverage/-$Search_a_2D_Matrix.coverage" NAME="Search_a_2D_Matrix Coverage Results" MODIFIED="1423631225832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Factorial_Trailing_Zeroes.coverage" NAME="Factorial_Trailing_Zeroes Coverage Results" MODIFIED="1424504607514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/-$Factorial_Trailing_Zeroes.coverage" NAME="Factorial_Trailing_Zeroes Coverage Results" MODIFIED="1424507096227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/-$Factorial_Trailing_Zeroes.coverage" NAME="Factorial_Trailing_Zeroes Coverage Results" MODIFIED="1424572090390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Linked_List_Cycle.coverage" NAME="Linked_List_Cycle Coverage Results" MODIFIED="1423321324221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Maximum_Subarray.coverage" NAME="Maximum_Subarray Coverage Results" MODIFIED="1421899156884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Spiral_Matrix_I.coverage" NAME="Spiral_Matrix_I Coverage Results" MODIFIED="1423915146895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -30,6 +30,7 @@
     <SUITE FILE_PATH="PyCharm40/coverage/-$Sum_Root_to_Leaf_Numbers.coverage" NAME="Sum_Root_to_Leaf_Numbers Coverage Results" MODIFIED="1423984360530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Remove_Duplicates_from_sorted_Lists.coverage" NAME="Remove_Duplicates_from_sorted_Lists Coverage Results" MODIFIED="1422155905961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Length_of_Last_Word.coverage" NAME="Length_of_Last_Word Coverage Results" MODIFIED="1424503889936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/-$Intersection_of_Two_Linked_Lists.coverage" NAME="Intersection_of_Two_Linked_Lists Coverage Results" MODIFIED="1424589266403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Spiral_Matrix.coverage" NAME="Spiral_Matrix Coverage Results" MODIFIED="1423878424330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Permutations_II.coverage" NAME="Permutations_II Coverage Results" MODIFIED="1424100173191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="PyCharm40/coverage/-$Merge_Two_Sorted_List.coverage" NAME="Merge_Two_Sorted_List Coverage Results" MODIFIED="1422363939285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,16 +69,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pascal's_Triangle_II.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pascal's_Triangle_II.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Remove_Dunplicates_from_Sorted_Array_II.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Remove_Dunplicates_from_Sorted_Array_II.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,11 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factorial_Trailing_Zeroes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Factorial_Trailing_Zeroes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Factorial_Trailing_Zeroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1300578" vertical-offset="0" max-vertical-offset="346">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intersection_of_Two_Linked_Lists.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Intersection_of_Two_Linked_Lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7398844" vertical-offset="284" max-vertical-offset="765">
+              <caret line="36" column="20" selection-start-line="12" selection-start-column="7" selection-end-line="36" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -220,6 +221,7 @@
         <option value="$PROJECT_DIR$/Path_Sum.py" />
         <option value="$PROJECT_DIR$/Length_of_Last_Word.py" />
         <option value="$PROJECT_DIR$/Factorial_Trailing_Zeroes.py" />
+        <option value="$PROJECT_DIR$/Intersection_of_Two_Linked_Lists.py" />
       </list>
     </option>
   </component>
@@ -227,8 +229,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
-    <option name="y" value="49" />
+    <option name="x" value="381" />
+    <option name="y" value="61" />
     <option name="width" value="758" />
     <option name="height" value="636" />
   </component>
@@ -289,7 +291,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Factorial_Trailing_Zeroes">
+  <component name="RunManager" selected="Python.Intersection_of_Two_Linked_Lists">
     <configuration default="false" name="Permutations_II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,26 +311,6 @@
       <RunnerSettings RunnerId="PythonCover" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonCover" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="-" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Permutations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -386,6 +368,26 @@
       <module name="-" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Factorial_Trailing_Zeroes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Intersection_of_Two_Linked_Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="-" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intersection_of_Two_Linked_Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -582,18 +584,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Permutations_II" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Permutations" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Path_Sum" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Length_of_Last_Word" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Factorial_Trailing_Zeroes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Path_Sum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Length_of_Last_Word" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Factorial_Trailing_Zeroes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Intersection_of_Two_Linked_Lists" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Factorial_Trailing_Zeroes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Length_of_Last_Word" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Path_Sum" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Permutations_II" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Permutations" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Intersection_of_Two_Linked_Lists" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Factorial_Trailing_Zeroes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Length_of_Last_Word" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Path_Sum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Permutations_II" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +613,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="49" width="758" height="636" extended-state="0" />
+    <frame x="381" y="61" width="758" height="636" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -626,7 +628,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25329816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.340388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.340388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -666,13 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Unique_Binary_Search_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Maximum_Subarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
@@ -1027,8 +1022,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Factorial_Trailing_Zeroes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1300578" vertical-offset="0" max-vertical-offset="346">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intersection_of_Two_Linked_Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7398844" vertical-offset="284" max-vertical-offset="765">
+          <caret line="36" column="20" selection-start-line="12" selection-start-column="7" selection-end-line="36" selection-end-column="20" />
           <folding />
         </state>
       </provider>

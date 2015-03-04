@@ -8,5 +8,5 @@ class Solution:
             return sum((self.numTrees(n-1-i)*self.numTrees(i))for i in range(n))
 
 instance=Solution()
-r=instance.numTrees(4)
+r=instance.numTrees(6)
 print r

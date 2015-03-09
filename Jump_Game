@@ -1,0 +1,18 @@
+#encoding:utf-8
+class Solution:
+    # @param A, a list of integers
+    # @return a boolean
+    def canJump(self, A):
+          max = 0
+          for ind,x in enumerate(A):
+              print x
+              if ind <= max:
+                  if max < ind+x:
+                      max = ind +x
+          return max >= len(A)-1
+
+instance = Solution()
+A = [2,3,1,3,4]
+AA = [2,0]
+AA = [0]
+print instance.canJump(AA)

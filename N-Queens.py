@@ -21,6 +21,7 @@ class Solution:
                 else:
                     for result in self.queen(n,state+(pos,)):
                         yield (pos,)+result
+
     def conflict(self,state,nextX):
         nextY = len(state)
         for i in range(nextY):
@@ -29,4 +30,4 @@ class Solution:
         return False
 
 instance = Solution()
-print instance.solveNQueens(4)
+print instance.solveNQueens(8)

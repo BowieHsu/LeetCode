@@ -8,6 +8,8 @@ class Solution:
         profit = [0]*k
         for i in prices:
             while k:
+                #记录下每次的买入和卖出
+                #依次比较
                 profit[k-1] = max(profit[k-1], hold[k-1]+i)
                 hold[k-1] = max(hold[k-1],-i)
 

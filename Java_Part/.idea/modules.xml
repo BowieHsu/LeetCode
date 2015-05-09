@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_Part.iml" filepath="$PROJECT_DIR$/Java_Part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reverse Linked List/Reverse Linked List.iml" filepath="$PROJECT_DIR$/Reverse Linked List/Reverse Linked List.iml" />
+    </modules>
+  </component>
+</project>
